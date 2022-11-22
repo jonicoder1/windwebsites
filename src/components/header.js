@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <div className="flex flex-col justify-around bg-black text-white">
         <div>
-          <img className="w-32 mx-auto" src={logo} alt="wind websites logo" />
+          <img className="w-32 mx-auto" src={logo} alt="wind websiteslogo" />
         </div>
         <div className="my-auto">
           <ul className="flex flex-wrap justify-around lg:justify-center">
