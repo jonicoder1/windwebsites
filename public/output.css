@@ -597,12 +597,12 @@ video {
   margin: 0.75rem;
 }
 
-.m-16 {
-  margin: 4rem;
+.m-auto {
+  margin: auto;
 }
 
-.m-0 {
-  margin: 0px;
+.m-4 {
+  margin: 1rem;
 }
 
 .my-auto {
@@ -615,9 +615,16 @@ video {
   margin-right: auto;
 }
 
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .flex {
@@ -628,64 +635,32 @@ video {
   display: inline-flex;
 }
 
-.grid {
-  display: grid;
+.h-1\/2 {
+  height: 50%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-96 {
+  height: 24rem;
 }
 
 .w-32 {
   width: 8rem;
 }
 
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
-.w-2 {
-  width: 0.5rem;
-}
-
-.w-3 {
-  width: 0.75rem;
-}
-
 .w-2\/4 {
   width: 50%;
-}
-
-.auto-cols-auto {
-  grid-auto-columns: auto;
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-rows-2 {
-  grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
 .flex-wrap {
   flex-wrap: wrap;
 }
 
-.content-center {
-  align-content: center;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 .justify-around {
@@ -727,10 +702,6 @@ video {
   background-size: cover;
 }
 
-.bg-auto {
-  background-size: auto;
-}
-
 .bg-center {
   background-position: center;
 }
@@ -743,44 +714,8 @@ video {
   padding: 18rem;
 }
 
-.p-96 {
-  padding: 24rem;
-}
-
-.p-44 {
-  padding: 11rem;
-}
-
-.p-16 {
-  padding: 4rem;
-}
-
-.p-20 {
-  padding: 5rem;
-}
-
-.p-24 {
-  padding: 6rem;
-}
-
-.p-40 {
-  padding: 10rem;
-}
-
-.p-36 {
-  padding: 9rem;
-}
-
-.p-32 {
-  padding: 8rem;
-}
-
 .p-28 {
   padding: 7rem;
-}
-
-.p-56 {
-  padding: 14rem;
 }
 
 .px-4 {
@@ -793,13 +728,83 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.text-center {
-  text-align: center;
+.py-60 {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.px-60 {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.py-44 {
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+}
+
+.py-64 {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+}
+
+.py-72 {
+  padding-top: 18rem;
+  padding-bottom: 18rem;
+}
+
+.py-80 {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.pt-60 {
+  padding-top: 15rem;
+}
+
+.pb-60 {
+  padding-bottom: 15rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-2xl {
@@ -810,15 +815,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .font-semibold {
@@ -872,6 +868,26 @@ code {
     monospace;
 }
 
+.h1-jon {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.h2-jon {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.h3-jon {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
 h1 {
   color: white;
 }
@@ -880,55 +896,14 @@ p {
   color: white;
 }
 
-.hover\:bg-contain:hover {
-  background-size: contain;
-}
-
 .active\:bg-gray-900:active {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
-@media (min-width: 640px) {
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-
-  .sm\:flex-col {
-    flex-direction: column;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:flex-col {
-    flex-direction: column;
-  }
-
-  .md\:text-black {
-    --tw-text-opacity: 1;
-    color: rgb(0 0 0 / var(--tw-text-opacity));
-  }
-}
-
 @media (min-width: 1024px) {
-  .lg\:flex-col {
-    flex-direction: column;
-  }
-
   .lg\:text-black {
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:flex-col {
-    flex-direction: column;
-  }
-}
-
-@media (min-width: 1536px) {
-  .\32xl\:flex-col {
-    flex-direction: column;
   }
 }

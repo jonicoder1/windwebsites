@@ -1,12 +1,10 @@
-import Button from "../re-usables/button";
-
 const Services = () => {
   return (
-    <div className="container bg-black text-center mx-auto p-28">
-      <h1>Services</h1>
-      <div className="flex text-white justify-evenly">
-        <div>
-          <h2>Basic</h2>
+    <div className="bg-neutral-700 text-center mx-auto py-5">
+      <h2 className="h2-jon">Services</h2>
+      <div className="flex flex-auto justify-center text-white ">
+        <div className="m-6">
+          <h3 className="h3-jon sm">Basic</h3>
           <ul>
             <li>responsive website</li>
             <li>8 sections</li>
@@ -16,8 +14,8 @@ const Services = () => {
             <li>photos</li>
           </ul>
         </div>
-        <div>
-          <h2>Regular</h2>
+        <div className="m-6">
+          <h3 className="h3-jon">Regular</h3>
           <ul>
             <li>responsive website</li>
             <li>8 sections</li>
@@ -28,8 +26,8 @@ const Services = () => {
             <li>SEO</li>
           </ul>
         </div>
-        <div>
-          <h2>Advanced</h2>
+        <div className="m-6">
+          <h3 className="h3-jon">Advanced</h3>
           <ul>
             <li>responsive website</li>
             <li>8 sections</li>
@@ -44,7 +42,6 @@ const Services = () => {
           </ul>
         </div>
       </div>
-      <Button>Call Us</Button>
     </div>
   );
 };

@@ -1,15 +1,15 @@
 import logo from "../images/wind_websites_light.png";
 import Button from "../re-usables/button";
 
-const Head = () => {
+const Header = () => {
   return (
     <>
-      <div className="flex justify-around bg-black text-white">
+      <div className="flex flex-col justify-around bg-black text-white">
         <div>
-          <img className="w-32" src={logo} alt="wind websites logo" />
+          <img className="w-32 mx-auto" src={logo} alt="wind websites logo" />
         </div>
-        <div className="my-auto ">
-          <ul className="flex">
+        <div className="my-auto">
+          <ul className="flex flex-wrap justify-around lg:justify-center">
             <li className="p-4">
               <a href="#">Home</a>
             </li>
@@ -28,13 +28,15 @@ const Head = () => {
           </ul>
         </div>
       </div>
-      <div className="text-center bg-teal-500 p-72 text-white">
-        <h1 className="text-4xl font-bold">Calisthenics Website</h1>
-        <h2 className="text-2xl">A Site For You</h2>
-        <Button>Contact</Button>
+      <div className="text-center bg-teal-500 text-white">
+        <div className="m-auto py-20">
+          <h1 className="h1-jon">Calisthenics Website</h1>
+          <h2 className="text-2xl">A Site For You</h2>
+          <Button>Contact</Button>
+        </div>
       </div>
     </>
   );
 };
 
-export default Head;
+export default Header;
