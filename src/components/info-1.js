@@ -3,7 +3,7 @@ import siteGraphics from "../images/site_graphics.png";
 
 const Info1 = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 bg-black flex-wrap">
+    <div className="grid grid-cols-1 md:grid-cols-2 bg-black flex-wrap xl:px-72">
       <div className="bg-center bg-cover mx-auto ">
         <img
           src={siteGraphics}
@@ -11,9 +11,9 @@ const Info1 = () => {
           className="mx-auto w-48 md:w-80"
         />
       </div>
-      <div className="bg-black text-white px-10 py-10">
-        <h2 className="h2-jon sm:text-center">Custom Website</h2>
-        <h3 className="text-2xl sm:text-center">
+      <div className="bg-black text-white px-10 py-10 ">
+        <h2 className="h2-jon sm:text-center md:text-left">Custom Website</h2>
+        <h3 className="text-2xl sm:text-center md:text-left">
           Available with Advanced Service
         </h3>
         <br />

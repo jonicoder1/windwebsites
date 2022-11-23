@@ -1,8 +1,8 @@
 const Features = () => {
   return (
-    <div className="bg-neutral-700 text-center mx-auto pb-16 pt-5 px-12 lg:px-36">
+    <div className="bg-neutral-700 text-center mx-auto pb-16 pt-5 px-12 lg:px-36 xl:px-72">
       <h2 className="h2-jon">Features</h2>
-      <div className="grid gap-10 px-6 text-white mt-10">
+      <div className="grid md:grid-cols-2 gap-10 px-6 text-white mt-10">
         <div>
           <h3 className="h3-jon">Responsive</h3>
           <p>

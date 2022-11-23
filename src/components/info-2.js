@@ -4,7 +4,7 @@ import blogger from "../images/blogger-browsing.jpg";
 const Info1 = () => {
   return (
     <div>
-      <div className="bg-black text-white py-5 px-20 lg:px-36">
+      <div className="bg-black text-white py-5 px-20 lg:px-36 xl:px-72">
         <h2 className="h2-jon text-center">Your Calisthenics Site</h2>
         <h3 className="text-2xl text-center">We Can Build It</h3>
         <br />

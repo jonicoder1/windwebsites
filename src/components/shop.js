@@ -5,10 +5,10 @@ import img3 from "../images/shop/resistance_bands.jpg";
 
 const Shop = () => {
   return (
-    <div className="bg-black text-center mx-auto p-5">
+    <div className="bg-black text-center mx-auto p-5" id="shop">
       <h2 className="h2-jon">Shop</h2>
-      <div className="flex flex-col lg:flex-row lg:justify-around text-white mt-12">
-        <div className="my-4">
+      <div className="flex flex-col lg:flex-row lg:justify-center text-white mt-12">
+        <div className="m-4">
           <img
             src={img1}
             className="mx-auto h-48 w-98 rounded-lg"
@@ -17,7 +17,7 @@ const Shop = () => {
           <h3 className="h3-jon">Gymnastics Rings</h3>
           <p>$49.99</p>
         </div>
-        <div className="my-4">
+        <div className="m-4">
           <img
             src={img2}
             className="mx-auto h-48 w-98 rounded-lg"
@@ -26,7 +26,7 @@ const Shop = () => {
           <h3 className="h3-jon">Parallettes</h3>
           <p>$79.99</p>
         </div>
-        <div className="my-4">
+        <div className="m-4">
           <img
             src={img3}
             className="mx-auto h-48 w-98 rounded-lg"

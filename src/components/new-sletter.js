@@ -1,7 +1,7 @@
 import logo from "../images/wind_websites_light.png";
 import Button from "../re-usables/button";
 
-const Header = () => {
+const NewsLetter = () => {
   return (
     <>
       <div className="text-center bg-neutral-800 text-white p-5">
@@ -18,4 +18,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NewsLetter;
