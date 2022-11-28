@@ -6,30 +6,32 @@ const Features = () => {
         <div>
           <h3 className="h3-jon">Responsive</h3>
           <p>
-            A site that is good for both desktop, tablet, and mobile will bring
-            your site to more customers. A responsive website is important
-            especially for mobile viewers.
+            Responsive design is important because it brings your brand to more
+            customers across all devices. Our responsive website will expand
+            with the pages to give you a wide viewing window on any device.
           </p>
         </div>
         <div>
           <h3 className="h3-jon">Word Mark</h3>
           <p>
-            Your word mark or logo will distinguish you from your competitors.
-            It is important to have at least a word mark.
+            Having a word mark or logo makes you stand out from the crowd of
+            other businesses. It is important to have at least one in order to
+            be successful.
           </p>
         </div>
         <div>
           <h3 className="h3-jon">SEO</h3>
           <p>
-            You will need SEO to make your site known to the world. It is what
-            web developers use to push your site to the top of the Google list.
+            SEO is a marketing technique that allows you to get your website
+            higher on the search engine results page and makes it easier for
+            people to find.
           </p>
         </div>
         <div>
           <h3 className="h3-jon">Payment System</h3>
           <p>
-            A system where you can connect a payment service to your website to
-            generate revenue if a client pays for a service or goods.
+            Create an online store, or add a payment system to your website to
+            increase revenue by accepting payments from clients.
           </p>
         </div>
       </div>

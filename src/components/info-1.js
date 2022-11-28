@@ -1,29 +1,25 @@
 import Button from "../re-usables/button";
-import siteGraphics from "../images/site_graphics.png";
+import blogger from "../images/blogger-browsing.jpg";
 
 const Info1 = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 bg-black flex-wrap xl:px-72">
-      <div className="bg-center bg-cover mx-auto ">
-        <img
-          src={siteGraphics}
-          alt="site graphics"
-          className="mx-auto w-48 md:w-80"
-        />
-      </div>
-      <div className="bg-black text-white px-10 py-10 ">
-        <h2 className="h2-jon sm:text-center md:text-left">Custom Website</h2>
-        <h3 className="text-2xl sm:text-center md:text-left">
-          Available with Advanced Service
-        </h3>
+    <div>
+      <div className="bg-black text-white py-5 px-20 lg:px-36 xl:px-72">
+        <h2 className="h2-jon text-center">Your Calisthenics Site</h2>
+        <h3 className="text-2xl text-center">We Can Build It</h3>
         <br />
         <p>
-          Our sites are more customizable than most drag-and-drop websites. We
-          build our sites with code which means you don’t have too many
-          restrictions as to how much you can customize it
+          We believe in supporting calisthenics professionals who are working
+          hard to make a living from their practice. That is why we are creating
+          a customizable calisthenics website for you to build your reputation
+          and help others learn about the benefits of bodyweight workouts.
         </p>
         <Button>Learn More</Button>
       </div>
+      <div
+        className="w-2/4 bg-center bg-cover"
+        style={{ backgroundImage: "url(" + blogger + ")" }}
+      />
     </div>
   );
 };
