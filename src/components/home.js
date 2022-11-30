@@ -1,5 +1,3 @@
-import Head from "./head";
-import Footer from "./footer";
 import Header from "./header";
 import Advanced from "./Advanced";
 import Services from "./services";
@@ -9,12 +7,14 @@ import Gallery from "./gallery";
 import Testimonials from "./testimonials";
 import Shop from "./shop";
 import FAQ from "./faq";
-import NewsLetter from "./new-sletter";
+import NewsLetter from "./news-letter";
+import Navigation from "./navigation";
+import Footer from "./footer";
 
 const Home = () => {
   return (
     <>
-      <Head />
+      <Navigation />
       <Header />
       <Advanced />
       <Services />

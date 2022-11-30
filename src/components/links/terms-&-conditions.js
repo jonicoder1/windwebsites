@@ -1,10 +1,10 @@
-import Head from "../head";
+import Navigation from "../navigation";
 import Footer from "../footer";
 
 const TermsAndConditions = () => {
   return (
     <>
-      <Head />
+      <Navigation />
       <p className="container bg-black p-10 mx-auto" id="termsAndConditions">
         <h2>Terms and Conditions</h2>{" "}
         <h3>Payment Obligations, Renewals, and Cancellations</h3>

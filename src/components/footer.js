@@ -1,4 +1,5 @@
 import logo from "../images/wind_websites_light.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -7,10 +8,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center py-16 px-16 lg:px-20 xl:px-72">
           <div className="flex flex-col">
             <h3 className="h3-jon">Company</h3>
-            <a href="#faq">FAQ</a>
-            <a href="termsAndConditions">Terms of Conditions</a>
-            <a href="">Privacy Policy</a>
-            <a href="">Contact</a>
+            <Link to="/faq">FAQ</Link>
+            <Link to="/termsAndConditions">Terms of Conditions</Link>
+            <a href="https://www.privacypolicies.com/live/2a49c8cd-fd30-4c0d-bf96-168a56ca963c">
+              Privacy Policy
+            </a>
+            <a href="mailto: windowlightmedia@gmail.com">Contact</a>
           </div>
           <div className="flex flex-col">
             <h3 className="h3-jon">Contact Info</h3>
@@ -25,19 +28,18 @@ const Footer = () => {
           </div>
           <div className="flex flex-col">
             <h3 className="h3-jon">Follow</h3>
-            <a href="">Twitter</a>
-            <a href="">Facebook</a>
-            <a href="">Instagram</a>
+            <a href="https://twitter.com/jonicoder/">Twitter</a>
+            <a href="https://www.facebook.com/jonicoder">Facebook</a>
+            <a href="https://www.instagram.com/jonicoder/">Instagram</a>
           </div>
           <div className="flex flex-col">
             <h3 className="h3-jon">About Us</h3>
-
             <p>
               We are a calisthenics brand focused on helping people build strong
               and capable body
             </p>
             <br />
-            <a href="">Scroll Up ⬆</a>
+            <Link to="/">Scroll Up ⬆</Link>
           </div>
         </div>
         <p className="p-4">©jonicoder</p>

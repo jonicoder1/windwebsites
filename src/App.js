@@ -1,17 +1,18 @@
-import Head from "./components/head";
-import Footer from "./components/footer";
+import Layout from "./components/layout/layout";
 import Home from "./components/home";
 import TermsAndConditions from "./components/links/terms-&-conditions";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Services from "./components/services";
+import FAQ from "./components/faq";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter className="App">
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path="termsAndConditions" element={<TermsAndConditions />} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route index element={<Home />} />
+      <Route path="/termsAndConditions" element={<TermsAndConditions />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/faq" element={<FAQ />} />
+    </Routes>
   );
 }
 
